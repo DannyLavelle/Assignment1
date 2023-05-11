@@ -8,7 +8,7 @@ public class HitManager : MonoBehaviour
     [SerializeField]
     float hitPoints = 25;
 
-    void Hit(float rawDamage)
+    public void Hit(float rawDamage)
     {
         hitPoints -= rawDamage;
         if (hitPoints <= 0)

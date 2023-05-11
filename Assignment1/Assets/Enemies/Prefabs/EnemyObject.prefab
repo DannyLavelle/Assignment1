@@ -224,7 +224,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.8
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 2720841882101946677}
   m_Layer: 0
   m_Name: EnemyObject
-  m_TagString: Untagged
+  m_TagString: Zombie
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -276,8 +276,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTransform: {fileID: 0}
-  rawDamage: 10
+  Player: {fileID: 0}
   delayTimerZombie: 2.5
+  interval: 1
 --- !u!114 &2720841882101946677
 MonoBehaviour:
   m_ObjectHideFlags: 0

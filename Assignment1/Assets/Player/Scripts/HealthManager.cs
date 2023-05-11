@@ -8,7 +8,7 @@ public class HealthManager : MonoBehaviour
     [SerializeField]
     float hitPoints = 100f;
 
-    void Hit(float rawDamage)
+    public void Hit(float rawDamage)
     {
         hitPoints -= rawDamage;
 

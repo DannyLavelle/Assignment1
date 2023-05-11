@@ -14,6 +14,7 @@ public class EnemyAttack : MonoBehaviour
     float distanceToTarget;
 
     [SerializeField]
+    GameObject Player;
     float rawDamage = 10f;
 
     [SerializeField]
@@ -22,12 +23,19 @@ public class EnemyAttack : MonoBehaviour
     float tick;
     bool attackReady = true;
 
+    [SerializeField]
+    public float interval = 1.0f; // The duration in seconds between actions
+    float ZombieSpeed = 3f;
+
+    private float timer = 0.0f;
     bool IsCollidingPlayer = false;
     float delayTimer = 0f;
+    private HealthManager healthManager; 
     void Start()
     {
         tick = delayTimer;
         gunTransform = gameObject.transform.Find("Gun");
+        healthManager = Player.GetComponent<HealthManager>();
     }
 
     void Update()
@@ -65,6 +73,7 @@ public class EnemyAttack : MonoBehaviour
                 TurretAttack();
                 break;
             case "Zombie"://Slow and walks to playe, damages on collide
+                ZombieAttack();
                 break;
                 default:
                 break;
@@ -105,15 +114,19 @@ public class EnemyAttack : MonoBehaviour
     }
     void ZombieAttack()
     {
-        if (IsCollidingPlayer = false)
+        if (IsCollidingPlayer == false)
         { 
-            float speed = 3f;
+            
         Vector3 directionToPlayer = (playerTransform.transform.position - transform.position).normalized;
-        transform.position += directionToPlayer * speed * Time.deltaTime;
+        transform.position += directionToPlayer * ZombieSpeed * Time.deltaTime;
         }
         else
         {
-
+            if(AttackInterval() == true)
+            {
+                healthManager.Hit(rawDamage);
+                Debug.Log("zombie hit");
+            }
         }
         
     }
@@ -128,7 +141,7 @@ public class EnemyAttack : MonoBehaviour
         {
             IsCollidingPlayer = false;
         }
-    }
+    }//Checks if a player is colliding with an enemy and returns a boolean. used to prevent melee enemies from clipping
     void SetDelayTimer()
     {
         switch (gameObject.tag)
@@ -145,4 +158,24 @@ public class EnemyAttack : MonoBehaviour
 
         }
     }
-}
+    bool AttackInterval()
+    {
+        timer += Time.deltaTime;
+
+        // Check if the specified interval has elapsed
+        if (timer >= interval)
+        {
+            //Returns true allowing an attack to happen
+            return true;
+
+            
+            timer = 0.0f;
+        }
+        else
+        {
+            return false;
+        }
+    }//creates an interval to attack 
+
+       
+    }
