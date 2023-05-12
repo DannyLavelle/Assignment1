@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class EnemyAttack : MonoBehaviour
 {
@@ -31,6 +32,7 @@ public class EnemyAttack : MonoBehaviour
     bool IsCollidingPlayer = false;
     float delayTimer = 0f;
     private HealthManager healthManager; 
+    bool Attackready=false;
     void Start()
     {
         tick = delayTimer;
@@ -41,6 +43,7 @@ public class EnemyAttack : MonoBehaviour
     void Update()
     {
         Attack();
+        Attackready = AttackInterval();
     }
 
     bool IsReadyToAttack()
@@ -67,12 +70,14 @@ public class EnemyAttack : MonoBehaviour
     void Attack()
         
     {
+        
         switch (gameObject.tag)
         {
             case "Turret"://stationary and shoots at player
                 TurretAttack();
                 break;
             case "Zombie"://Slow and walks to playe, damages on collide
+                
                 ZombieAttack();
                 break;
                 default:
@@ -114,34 +119,48 @@ public class EnemyAttack : MonoBehaviour
     }
     void ZombieAttack()
     {
+        CharacterController controller = GetComponent<CharacterController>();
+
         if (IsCollidingPlayer == false)
-        { 
+        {
             
-        Vector3 directionToPlayer = (playerTransform.transform.position - transform.position).normalized;
-        transform.position += directionToPlayer * ZombieSpeed * Time.deltaTime;
+            Vector3 directionToPlayer = (playerTransform.transform.position - transform.position).normalized;
+            controller.Move(directionToPlayer * ZombieSpeed * Time.deltaTime);
+
+            // Apply gravity
+            controller.Move(Vector3.down * ZombieSpeed * Time.deltaTime);
         }
         else
         {
-            if(AttackInterval() == true)
+            
+            if (Attackready == true)
             {
+                timer = 0.0f;
                 healthManager.Hit(rawDamage);
                 Debug.Log("zombie hit");
             }
         }
-        
     }
 
-    private void OnTriggerStay(Collider collider)
+
+    private void OnTriggerEnter(Collider collider)
     {
-       if (collider.tag == "player")
+        if (collider.CompareTag("Player"))
         {
+            Debug.Log("Collided");
             IsCollidingPlayer = true;
         }
-       else
+    }
+
+    private void OnTriggerExit(Collider collider)
+    {
+        if (collider.CompareTag("Player"))
         {
+            Debug.Log(" stopped Collided");
             IsCollidingPlayer = false;
         }
-    }//Checks if a player is colliding with an enemy and returns a boolean. used to prevent melee enemies from clipping
+    }
+    //Checks if a player is colliding with an enemy and returns a boolean. used to prevent melee enemies from clipping
     void SetDelayTimer()
     {
         switch (gameObject.tag)
@@ -169,7 +188,7 @@ public class EnemyAttack : MonoBehaviour
             return true;
 
             
-            timer = 0.0f;
+            
         }
         else
         {
@@ -177,5 +196,5 @@ public class EnemyAttack : MonoBehaviour
         }
     }//creates an interval to attack 
 
-       
+ 
     }

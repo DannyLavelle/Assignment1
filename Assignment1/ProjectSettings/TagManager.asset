@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Unlocked Door
   - Enemy Door
+  - Zombie
   layers:
   - Default
   - TransparentFX
