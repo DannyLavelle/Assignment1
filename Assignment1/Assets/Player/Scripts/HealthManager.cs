@@ -6,8 +6,11 @@ using UnityEngine;
 public class HealthManager : MonoBehaviour
 {
     [SerializeField]
-    float hitPoints = 100f;
-
+   float hitPoints = 100f;
+    public float Gethitpoints()
+    {
+        return hitPoints;   
+    }
     public void Hit(float rawDamage)
     {
         hitPoints -= rawDamage;

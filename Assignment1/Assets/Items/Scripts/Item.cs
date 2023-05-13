@@ -33,6 +33,8 @@ public class Item : MonoBehaviour
     [SerializeField]
     bool isPickupOnCollision = false;
 
+    [SerializeField]
+    GameObject EnemySpawn;
     private void Start()
     {
         if (isPickupOnCollision)
@@ -54,6 +56,11 @@ public class Item : MonoBehaviour
                         break;
                     case "Unlocked Door":
                         gameObject.SetActive(false);
+                        break;
+                    case "Enemy Door":
+                        EnemySpawn.SetActive(true);
+                        gameObject.SetActive(false);
+                        
                         break;
                     default:
                         Interact();
@@ -95,6 +102,7 @@ public class Item : MonoBehaviour
                 gameObject.SetActive(false);
                 break;
             case "Enemy Door":
+                EnemySpawn.SetActive(true);
                 gameObject.SetActive(false);
                 
                 break;

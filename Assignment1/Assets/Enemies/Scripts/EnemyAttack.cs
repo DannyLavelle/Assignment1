@@ -31,13 +31,13 @@ public class EnemyAttack : MonoBehaviour
     private float timer = 0.0f;
     bool IsCollidingPlayer = false;
     float delayTimer = 0f;
-    private HealthManager healthManager; 
+    //private HealthManager healthManager; 
     bool Attackready=false;
     void Start()
     {
         tick = delayTimer;
         gunTransform = gameObject.transform.Find("Gun");
-        healthManager = Player.GetComponent<HealthManager>();
+        //healthManager = Player.GetComponent<HealthManager>();
     }
 
     void Update()
@@ -73,6 +73,7 @@ public class EnemyAttack : MonoBehaviour
         
         switch (gameObject.tag)
         {
+            
             case "Turret"://stationary and shoots at player
                 TurretAttack();
                 break;
@@ -119,16 +120,11 @@ public class EnemyAttack : MonoBehaviour
     }
     void ZombieAttack()
     {
-        CharacterController controller = GetComponent<CharacterController>();
+       
 
         if (IsCollidingPlayer == false)
         {
-            
-            Vector3 directionToPlayer = (playerTransform.transform.position - transform.position).normalized;
-            controller.Move(directionToPlayer * ZombieSpeed * Time.deltaTime);
-
-            // Apply gravity
-            controller.Move(Vector3.down * ZombieSpeed * Time.deltaTime);
+            MoveTowardsPlayer();
         }
         else
         {
@@ -136,8 +132,10 @@ public class EnemyAttack : MonoBehaviour
             if (Attackready == true)
             {
                 timer = 0.0f;
+                HealthManager healthManager = Player.GetComponent<HealthManager>();
+                Debug.Log(healthManager.Gethitpoints());
                 healthManager.Hit(rawDamage);
-                Debug.Log("zombie hit");
+                Debug.Log("Zombie hit");
             }
         }
     }
@@ -184,9 +182,10 @@ public class EnemyAttack : MonoBehaviour
         // Check if the specified interval has elapsed
         if (timer >= interval)
         {
+            
             //Returns true allowing an attack to happen
             return true;
-
+            
             
             
         }
@@ -196,5 +195,13 @@ public class EnemyAttack : MonoBehaviour
         }
     }//creates an interval to attack 
 
- 
+    void MoveTowardsPlayer()
+    {
+        CharacterController controller = GetComponent<CharacterController>();
+        Vector3 directionToPlayer = (playerTransform.transform.position - transform.position).normalized;
+        controller.Move(directionToPlayer * ZombieSpeed * Time.deltaTime);
+
+        // Apply gravity
+        controller.Move(Vector3.down * ZombieSpeed * Time.deltaTime);
+    }
     }

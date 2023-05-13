@@ -363,6 +363,7 @@
 "Assets/Enemies/Scripts/EnemyAttack.cs"
 "Assets/Enemies/Scripts/HitManager.cs"
 "Assets/Environment/Scripts/ClosingDoor.cs"
+"Assets/Environment/Scripts/SpawnNextWave.cs"
 "Assets/Items/Scripts/Interactor.cs"
 "Assets/Items/Scripts/Item.cs"
 "Assets/MenuSystem/MenuScripts/InGameMenuController.cs"

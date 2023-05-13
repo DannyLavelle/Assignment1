@@ -18,6 +18,7 @@ public class PlayerAttack : MonoBehaviour
 
     void FireWeapon()
     {
+        
         if (Input.GetButtonDown("Fire1"))
         {
             cameraTransform = Camera.main.transform;
@@ -37,5 +38,9 @@ public class PlayerAttack : MonoBehaviour
                 Debug.Log("NO RAYCAST FROM PLAYER ATTACK");
             }
         }
+    }
+    void GetCurrentWeapon()
+    {
+
     }
 }
