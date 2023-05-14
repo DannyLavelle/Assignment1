@@ -369,6 +369,7 @@
 "Assets/MenuSystem/MenuScripts/InGameMenuController.cs"
 "Assets/MenuSystem/MenuScripts/MenuController.cs"
 "Assets/Player/Scripts/HealthManager.cs"
+"Assets/Player/Scripts/HUDController.cs"
 "Assets/Player/Scripts/PlayerAttack.cs"
 "Assets/Player/Scripts/PlayerLocomotion.cs"
 "Assets/Player/Scripts/SwitchPerspective.cs"

@@ -8,6 +8,7 @@ public class SpawnNextWave : MonoBehaviour
     public GameObject CurrentWave;
     public GameObject NextWave;
 
+
     private void Update()
     {
         // Check if there are no active enemies in Wave 1

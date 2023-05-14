@@ -7,6 +7,7 @@ public class InGameMenuController : MonoBehaviour
     public GameObject StartPanel;
     public GameObject PausePanel;
    public GameObject WinPanel;
+    public GameObject HUD;
     [SerializeField] bool IsPauseMenuAvailable = false;
     [HideInInspector] public static bool IsGamePaused = false;
 
@@ -16,13 +17,21 @@ public class InGameMenuController : MonoBehaviour
         StartPanel.SetActive(true);
         Time.timeScale = 0f;
         IsGamePaused = true;
+        Debug.Log("Got through start");
     }
 
     public void OkButton()
     {
+        Debug.Log("pressed ok button");
+        HUD.SetActive(true);
+
         Cursor.visible = false;
-        StartPanel.SetActive(false);
+        Debug.Log("Made cursor visible");
         Time.timeScale = 1f;
+        IsGamePaused=false;
+        Debug.Log("set timescale");
+        StartPanel.SetActive(false);
+        Debug.Log("Set panel inactive");
     }
 
 }
