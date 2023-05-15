@@ -1,25 +1,50 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
     [SerializeField]
-   float hitPoints = 100f;
+    float Maxhitpoints = 100f;
+    public Slider healthSlider;
+    public GameObject Menu;
+    [HideInInspector] 
+    float hitPoints;
+    
+    private void Start()
+    {
+        hitPoints = Maxhitpoints;
+    }
     public float Gethitpoints()
     {
         return hitPoints;   
     }
     public void Hit(float rawDamage)
     {
+        InGameMenuController UI = Menu.GetComponent<InGameMenuController>();
         hitPoints -= rawDamage;
-
-        Debug.Log("OUCH: " + hitPoints.ToString());
+        SetHealthSlider();
+        ;
 
         if (hitPoints <= 0)
         {
-            Debug.Log("TODO: GAME OVER - YOU DIED");
+            UI.DeathSequence();
         }
     }
+    void SetHealthSlider()
+    {
+        if (healthSlider != null)
+        {
+            healthSlider.value = Percentagehitpoints();
+        }
+    }
+
+    float Percentagehitpoints()
+    {
+        return hitPoints / Maxhitpoints;
+    }
+  
 }

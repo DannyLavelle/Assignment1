@@ -6,26 +6,32 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     Transform cameraTransform;
-    float range = 100f;
+    float range = 1000f;
 
     [SerializeField]
     float rawDamage = 10f;
     [SerializeField]
-    bool Weapon1Unlocked = true;
-    bool Weapon2Unlocked = false;
-    int PistolAmmo = 100;
-    int PistolClip = 6;
-    int PistolMaxClip = 6;
+    public bool Weapon1Unlocked = true;
+    public bool Weapon2Unlocked = false;
+    public int PistolAmmo = 100;
+    public int PistolClip = 6;
+    public int PistolMaxClip = 6;
 
     [SerializeField]
     public GameObject HUD;
+    public GameObject Menu;
     int CurrentWeapon = 1;
 
     bool ReadyToFire = true;
     void Update()
     {
-        FireWeapon();
-        Reload();
+        InGameMenuController UI = Menu.GetComponent<InGameMenuController>();
+        if (UI.GetIsGamePaused() == false)
+        {
+            FireWeapon();
+            Reload();
+        }
+
     }
 
     void FireWeapon()
@@ -73,26 +79,44 @@ public class PlayerAttack : MonoBehaviour
     void FirePistol()
     {
 
+
         cameraTransform = Camera.main.transform;
         Ray ray = new Ray(cameraTransform.position, cameraTransform.forward);
         RaycastHit raycastHit;
 
-        if (Physics.Raycast(ray, out raycastHit, range))
+        int layerMask = ~LayerMask.GetMask("Player");  // Exclude the "Player" layer
+
+        if (Physics.Raycast(ray, out raycastHit, range, layerMask))
         {
             if (raycastHit.transform != null)
             {
                 raycastHit.collider.SendMessageUpwards("Hit", rawDamage, SendMessageOptions.DontRequireReceiver);
-
             }
         }
         else
         {
             Debug.Log("NO RAYCAST FROM PLAYER ATTACK");
         }
+        //cameraTransform = Camera.main.transform;
+        //Ray ray = new Ray(cameraTransform.position, cameraTransform.forward);
+        //RaycastHit raycastHit;
+
+        //if (Physics.Raycast(ray, out raycastHit, range))
+        //{
+        //    if (raycastHit.transform != null)
+        //    {
+        //        raycastHit.collider.SendMessageUpwards("Hit", rawDamage, SendMessageOptions.DontRequireReceiver);
+
+        //    }
+        //}
+        //else
+        //{
+        //    Debug.Log("NO RAYCAST FROM PLAYER ATTACK");
+        //}
     }
     void Reload()
     {
-      if(Input.GetKeyDown(KeyCode.R))
+      if(Input.GetKeyDown(KeyCode.R) || Input.GetMouseButtonDown(1))
         {
             switch (CurrentWeapon)
             {

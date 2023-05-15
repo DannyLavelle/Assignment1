@@ -7,11 +7,12 @@ TagManager:
   - Unlocked Door
   - Enemy Door
   - Zombie
+  - Goal
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 

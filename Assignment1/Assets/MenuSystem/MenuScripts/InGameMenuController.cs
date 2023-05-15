@@ -1,5 +1,6 @@
 //using System.Diagnostics;
 using TMPro;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +9,7 @@ public class InGameMenuController : MonoBehaviour
     [SerializeField]
     public GameObject StartPanel;
     public GameObject PausePanel;
+    public GameObject DeathPanel;
    public GameObject WinPanel;
     public GameObject HUD;
     public GameObject TimeOutPanel;
@@ -19,6 +21,15 @@ public class InGameMenuController : MonoBehaviour
     public float totalTime = 60f; 
     private float timeRemaining;
     [HideInInspector] public static bool IsGamePaused = false;
+
+
+    public TMP_Text TimeElapsed;
+    public TMP_Text Score;
+    public float SRankTimeRemaining ;
+    public float ARankTimeRemaining;
+    public float BRankTimeRemaining;
+    
+
 
     private void Start()
     {
@@ -122,8 +133,54 @@ public class InGameMenuController : MonoBehaviour
     }
     public void WinSequence()
     {
+        float elapsedTime = (totalTime - timeRemaining);
         PauseControl();
+        TimeElapsed.text = ("Time Elapsed: " + elapsedTime.ToString("0"));
+        Score.text = ("Rank: " + GetRank());
         WinPanel.SetActive(true);
 
+    }
+
+    public void DeathSequence()
+    {
+        PauseControl();
+        DeathPanel.SetActive(true);
+    }
+
+    public void RetryButton()
+    {
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        Cursor.visible = true;
+        SceneManager.LoadScene(currentSceneIndex);
+        IsGamePaused = false;
+    }
+    public bool GetIsGamePaused()
+    {
+        return IsGamePaused;
+    }
+    public string GetRank()
+    {
+        if (timeRemaining < BRankTimeRemaining)
+        {
+            return "C";
+        }
+        else if (timeRemaining < ARankTimeRemaining)
+        {
+            return "B";
+        }
+        else if (timeRemaining < SRankTimeRemaining)
+        {
+            return "A";
+        }
+        else
+        {
+            return "S";
+        }
+
+    }
+
+    public void Returntomenu()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 }
