@@ -92,20 +92,23 @@ public class PlayerAttack : MonoBehaviour
     }
     void Reload()
     {
-        switch (CurrentWeapon)
+      if(Input.GetKeyDown(KeyCode.R))
         {
-            case 1:
-                if (PistolClip < PistolMaxClip)
-                {
-                    ReadyToFire = false;
-                    Debug.Log("Reloading");
-                    StartCoroutine(WaitAndReload(2));
-                }
-                break;
-            case 2:
-                break;
-            default:
-                break;
+            switch (CurrentWeapon)
+            {
+                case 1:
+                    if (PistolClip < PistolMaxClip)
+                    {
+                        ReadyToFire = false;
+                        Debug.Log("Reloading");
+                        StartCoroutine(WaitAndReload(2));
+                    }
+                    break;
+                case 2:
+                    break;
+                default:
+                    break;
+            }
         }
     }
 

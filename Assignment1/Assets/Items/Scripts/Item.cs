@@ -9,6 +9,7 @@ public class Item : MonoBehaviour
 {
     [SerializeField]
     GameObject itemPrefab;
+    public GameObject Menu;
     [SerializeField]
     Sprite icon;
 
@@ -45,6 +46,7 @@ public class Item : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
+        InGameMenuController UI = Menu.GetComponent<InGameMenuController>();
         if (isPickupOnCollision)
         {
             if (collider.tag == "Player")
@@ -58,9 +60,13 @@ public class Item : MonoBehaviour
                         gameObject.SetActive(false);
                         break;
                     case "Enemy Door":
+                        UI.EnemyInfoShow();
                         EnemySpawn.SetActive(true);
                         gameObject.SetActive(false);
                         
+                        break;
+                    case "Goal":
+                        UI.WinSequence();
                         break;
                     default:
                         Interact();
@@ -91,7 +97,7 @@ public class Item : MonoBehaviour
     void Store()
     {
         Debug.Log("Storing " + transform.name);
-
+        InGameMenuController EnemyInfo = Menu.GetComponent<InGameMenuController>();
         // TODO Inventory system
         switch (gameObject.tag)
         {
@@ -102,6 +108,7 @@ public class Item : MonoBehaviour
                 gameObject.SetActive(false);
                 break;
             case "Enemy Door":
+                EnemyInfo.EnemyInfoShow();
                 EnemySpawn.SetActive(true);
                 gameObject.SetActive(false);
                 
