@@ -1,0 +1,484 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1684268198846997, "dur": 596085, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268198848086, "dur": 36801, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268198885095, "dur": 548197, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268199433305, "dur": 9777, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268199565583, "dur": 1389912, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268199565596, "dur": 20360, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268199585960, "dur": 1359093, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268200945054, "dur": 10440, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268206983771, "dur": 704470, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268206983957, "dur": 13549, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268206997510, "dur": 32180, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268207029771, "dur": 456226, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268207485999, "dur": 188833, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268207674833, "dur": 13407, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268457925693, "dur": 115776, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268457925713, "dur": 31450, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268457957167, "dur": 74208, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268458031377, "dur": 10090, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268458148545, "dur": 616410, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268458148561, "dur": 20227, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268458168792, "dur": 586584, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268458755377, "dur": 9577, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268460337418, "dur": 434968, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268460337453, "dur": 13080, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268460350536, "dur": 32532, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268460383072, "dur": 190310, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268460573384, "dur": 184781, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268460758167, "dur": 14220, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268519078607, "dur": 102947, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268519078625, "dur": 33533, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268519112161, "dur": 58905, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268519171068, "dur": 10485, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268519279755, "dur": 482752, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268519279770, "dur": 11643, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268519291415, "dur": 461066, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268519752482, "dur": 10024, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268521230457, "dur": 169259, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268521230466, "dur": 12917, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268521243390, "dur": 142616, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268521386008, "dur": 13707, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268752102831, "dur": 105618, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268752102849, "dur": 23365, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268752126218, "dur": 72227, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268752198447, "dur": 10002, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268752316451, "dur": 727490, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268752316469, "dur": 20732, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268752337203, "dur": 697167, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268753034371, "dur": 9568, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268754481438, "dur": 139837, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268754481448, "dur": 13236, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268754494685, "dur": 113055, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268754607741, "dur": 13534, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268916734199, "dur": 102372, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268916734219, "dur": 34001, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268916768224, "dur": 58029, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268916826255, "dur": 10314, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268916934803, "dur": 623557, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268916934818, "dur": 20351, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268916955172, "dur": 592862, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268917548036, "dur": 10324, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268918431012, "dur": 216693, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268918431020, "dur": 13211, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268918444233, "dur": 191692, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268918635927, "dur": 11777, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268918648332, "dur": 167, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684268918469019, "dur":1248, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684268918470275, "dur":88, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684268918470393, "dur":298, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684268918470708, "dur":369, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684268918471078, "dur":140970, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684268918612090, "dur":1534, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684268918613704, "dur":1143, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684268918614897, "dur":2527, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684268918470830, "dur":252, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918471083, "dur":2009, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918473103, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918473163, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918484589, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684268918486282, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1684268918486428, "dur":51033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1684268918537500, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1684268918537498, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1684268918537611, "dur":4830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1684268918542590, "dur":4458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918547168, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918549239, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918551689, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918551766, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918554534, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918554628, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918556417, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918556415, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918556611, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918558966, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918558964, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918559156, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918561568, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918561566, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918561724, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918561801, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918563988, "dur":287, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918563986, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918564276, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918564434, "dur":3945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918568466, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918568789, "dur":4432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918573263, "dur":968, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918573262, "dur":969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918574232, "dur":432, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918574688, "dur":5275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918580013, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918580011, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918580074, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918580149, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918583412, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918583716, "dur":10348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918594129, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918594195, "dur":12007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684268918606279, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684268918606892, "dur":4718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1684268918611641, "dur":286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684268918470855, "dur":236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684268918471092, "dur":2003, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684268918473111, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1684268918473099, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1684268918473173, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684268918537360, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1684268918538681, "dur":48869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684268918587616, "dur":580, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684268918588212, "dur":5832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684268918594140, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684268918594075, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684268918594376, "dur":12579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684268918607027, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684268918607174, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1684268918610036, "dur":1910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918470849, "dur":239, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918471088, "dur":2009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918473121, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684268918473104, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684268918473194, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918537680, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684268918540357, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918540865, "dur":5439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918546436, "dur":2683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918549261, "dur":2937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918552271, "dur":619, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918552900, "dur":4601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918557535, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918557533, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918557637, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918558041, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918559548, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918559547, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918559661, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918559828, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918562569, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918562568, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918562698, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918562770, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918565432, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918565431, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918565573, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918565797, "dur":3078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918568943, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918569463, "dur":2791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918572321, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918572435, "dur":15926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918588426, "dur":1136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918589575, "dur":5344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918594983, "dur":464, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918595460, "dur":10633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684268918606241, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684268918606339, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684268918606562, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684268918609231, "dur":2776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918470874, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918471095, "dur":2010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918473106, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1684268918473188, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918549992, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1684268918551330, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918551421, "dur":4468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918555987, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918556101, "dur":6869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918563007, "dur":284, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918563006, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918563292, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918563484, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918565566, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918565564, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918565621, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918565798, "dur":6582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918572557, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918572555, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918572639, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918572751, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918576008, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918576214, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918580336, "dur":4600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918585042, "dur":4997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918590104, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918590338, "dur":6843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918597268, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684268918597494, "dur":11303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684268918608838, "dur":4299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684268918470894, "dur":205, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684268918471099, "dur":2001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684268918473101, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1684268918473194, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684268918565336, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1684268918566571, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684268918568139, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684268918568217, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684268918569642, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684268918569728, "dur":3470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684268918573260, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684268918573370, "dur":4757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684268918578201, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684268918578310, "dur":5584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684268918584168, "dur":12965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684268918597410, "dur":385, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\StreamingAssets\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1684268918597409, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1684268918599126, "dur":1235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1684268918600421, "dur":658, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684268918601093, "dur":2864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684268918603991, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684268918604104, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1684268918605937, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684268918608956, "dur":4178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684268918470915, "dur":187, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684268918471102, "dur":1995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684268918473098, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684268918473207, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684268918567016, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1684268918568381, "dur":3365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684268918571816, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684268918571965, "dur":2849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684268918574876, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684268918575009, "dur":3403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684268918578589, "dur":3348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684268918581999, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684268918582399, "dur":2908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684268918585359, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684268918585410, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684268918585545, "dur":7165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684268918592748, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684268918592747, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684268918592821, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684268918593017, "dur":18436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684268918611490, "dur":583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918470941, "dur":165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918471106, "dur":1995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918473103, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1684268918473161, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918475939, "dur":3302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1684268918479319, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1684268918479392, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918480690, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1684268918482558, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684268918482555, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684268918482623, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918482695, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684268918484547, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1684268918484618, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918484695, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1684268918486920, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918486917, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918487029, "dur":75070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918562133, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918562131, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918562359, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918562451, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918565500, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918565825, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918567748, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918570790, "dur":675, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918571479, "dur":3164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918574807, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918578417, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918578480, "dur":4003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918582591, "dur":7319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684268918589981, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684268918590340, "dur":21438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918470955, "dur":155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918471110, "dur":1989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918473099, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684268918475794, "dur":3465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684268918479323, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1684268918479321, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1684268918479395, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918480533, "dur":1638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1684268918482440, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684268918484563, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1684268918484635, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918484765, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1684268918486637, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918486634, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918486697, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918487133, "dur":62930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918550124, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918550122, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918550193, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918550421, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918552827, "dur":3303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918556163, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918556162, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918556358, "dur":3547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918559937, "dur":424, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918559935, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918560363, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918560787, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918563486, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918563485, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918563600, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918563665, "dur":4548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918568335, "dur":3430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918571831, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918571992, "dur":3689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918575793, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918575922, "dur":4116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918580168, "dur":4720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918585044, "dur":5402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918590511, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918590638, "dur":6501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918597323, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684268918597495, "dur":10561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684268918608089, "dur":2366, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1684268918608088, "dur":2368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1684268918610510, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1684268918611504, "dur":433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918470973, "dur":140, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918471113, "dur":1989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918473112, "dur":69, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1684268918473102, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1684268918473182, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918484857, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1684268918486583, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918486580, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918486645, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918487289, "dur":51928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918539740, "dur":4865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918544742, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918547039, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918549512, "dur":3268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918552846, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918552924, "dur":3149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918556315, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918556313, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918556454, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918556577, "dur":2544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918559153, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918559152, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918559306, "dur":2475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918561815, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918561813, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918561930, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918562155, "dur":2458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918564653, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918564651, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918564881, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918565060, "dur":4149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918569308, "dur":3147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918572586, "dur":5536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918578166, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918578224, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918578310, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918580994, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918581222, "dur":12075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918593453, "dur":6362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684268918599874, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918600075, "dur":4177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1684268918604319, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684268918604661, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1684268918605985, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/resources.assets" }}
+,{ "pid":12345, "tid":9, "ts":1684268918608878, "dur":3158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684268918470987, "dur":129, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684268918471116, "dur":1987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684268918473103, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1684268918473189, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684268918551333, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1684268918552756, "dur":4163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918556959, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918556958, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918557097, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684268918557215, "dur":5654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918562909, "dur":290, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918562908, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918563200, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684268918563291, "dur":3688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918567008, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918567006, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918567076, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684268918567163, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918569634, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918569633, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918569930, "dur":3616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918573606, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684268918573732, "dur":2826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918576685, "dur":4147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918581007, "dur":6912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918588059, "dur":817, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684268918588891, "dur":6033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918594989, "dur":405, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684268918595407, "dur":10682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684268918606224, "dur":3740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1684268918609999, "dur":3065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918471001, "dur":118, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918471119, "dur":1985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918473120, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1684268918473104, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1684268918473192, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918537158, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1684268918539340, "dur":8627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1684268918548056, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918548325, "dur":2407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918550805, "dur":599, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918551416, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918553179, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918553388, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918555288, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918556707, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918556705, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918556826, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918556981, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918559196, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918559195, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918559354, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918561690, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918561688, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918561833, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918563190, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918563189, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918563294, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918563481, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918564725, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Danny Lavelle\\Documents\\GitHub\\Assignment1\\Assignment1\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918564723, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918564831, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918565057, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918566700, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918566766, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918568424, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918568422, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918568478, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918568569, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918570791, "dur":671, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918571476, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918573681, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918573679, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918573754, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918574023, "dur":18710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918592803, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918593017, "dur":4842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684268918601043, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1684268918603432, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1684268918605098, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1684268918608093, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684268918608216, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1684268918610282, "dur":2773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684268918471018, "dur":104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684268918471122, "dur":1977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684268918473114, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1684268918473101, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1684268918473197, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684268918565997, "dur":4277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1684268918570392, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684268918570474, "dur":3652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684268918574199, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684268918574435, "dur":5717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684268918580226, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684268918580296, "dur":4521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684268918584925, "dur":5122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684268918590157, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684268918590340, "dur":16095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684268918606500, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684268918606625, "dur":3159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Danny Lavelle/Documents/GitHub/Assignment1/Build/Assignment1_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1684268918609818, "dur":2207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684268918619475, "dur":1662, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1684268918648592, "dur": 10138, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684268918648319, "dur": 10487, "ph": "X", "name": "Write chrome-trace events", "args": {} },

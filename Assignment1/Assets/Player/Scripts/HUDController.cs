@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.PlasticSCM.Editor.WebApi;
+//using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 using TMPro;
 using System.Diagnostics;
@@ -30,12 +30,12 @@ public class HUDController : MonoBehaviour
         {
             case 1:
                 CurrentWeaponText.text = "Pistol";
-                CurrentWeaponImage.sprite = PistolSprite;
+               
                     
              break;
             case 2:
                 CurrentWeaponText.text = "Energy Weapon";
-                CurrentWeaponImage.sprite = EnergySprite;
+                
 
                 break;
 

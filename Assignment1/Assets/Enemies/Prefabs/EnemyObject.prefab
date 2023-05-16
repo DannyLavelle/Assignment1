@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 2720841882101946677}
   m_Layer: 0
   m_Name: EnemyObject
-  m_TagString: Zombie
+  m_TagString: Turret
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,4 +291,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb7a370b859daee45bfa98098d5646f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 50
+  hitPoints: 120
+  Ammo: {fileID: 3965862439954816779, guid: 684cbfd0e635de349bab96f725ee6df0, type: 3}
+  Health: {fileID: 3965862439954816779, guid: c891873a6611b0a42bfeca8fcd1d17ed, type: 3}
+  Damage: {fileID: 3965862439954816779, guid: 46598f140caeb6b45b6d388e44183b5b, type: 3}
+  Player: {fileID: 0}
+  HealthChance: 0
+  DamageChance: 0
+  AmmoChance: 0

@@ -7,24 +7,28 @@ public class PlayerAttack : MonoBehaviour
 {
     Transform cameraTransform;
     float range = 1000f;
-
+    
     [SerializeField]
     float rawDamage = 10f;
     [SerializeField]
-    public bool Weapon1Unlocked = true;
+    
     public bool Weapon2Unlocked = false;
-    public int PistolAmmo = 100;
-    public int PistolClip = 6;
-    public int PistolMaxClip = 6;
+    int Ammo = 100;
+    int Clip = 6;
+    public int MaxClip = 6;
 
     [SerializeField]
+    public GameObject EnergyProjectile;
     public GameObject HUD;
     public GameObject Menu;
+
     int CurrentWeapon = 1;
 
     bool ReadyToFire = true;
     void Update()
     {
+        GetCurrentWeapon();
+
         InGameMenuController UI = Menu.GetComponent<InGameMenuController>();
         if (UI.GetIsGamePaused() == false)
         {
@@ -43,15 +47,20 @@ public class PlayerAttack : MonoBehaviour
                 switch (CurrentWeapon)
                 {
                     case 1:
-                        if (PistolClip > 0)
+                        if (Clip > 0)
                         {
                             FirePistol();
-                            PistolClip--;
+                            Clip--;
                         }
 
                         break;
                     case 2:
-                        //FireEnergyWeapon()
+                        if (Clip >= 5)
+                    {
+                        //FireEnergyWeapon();
+                        Clip -= 5;
+                    }
+                    
                         break;
                     default:
                         break;
@@ -63,16 +72,21 @@ public class PlayerAttack : MonoBehaviour
     void GetCurrentWeapon()
     {
         HUDController hud = HUD.GetComponent<HUDController>();
-        if (Input.GetKeyDown(KeyCode.Alpha1) && Weapon1Unlocked == true)
+        if (Input.GetKeyDown(KeyCode.Alpha1) )
         {
             CurrentWeapon = 1;
+            UpdateClipsize();
             hud.ChangeWeapon(1);
 
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2) && Weapon2Unlocked == true)
         {
-            CurrentWeapon = 2;
-            hud.ChangeWeapon(2);
+          
+                CurrentWeapon = 2;
+            UpdateClipsize();
+                hud.ChangeWeapon(2);
+           
+
         }
 
     }
@@ -121,7 +135,7 @@ public class PlayerAttack : MonoBehaviour
             switch (CurrentWeapon)
             {
                 case 1:
-                    if (PistolClip < PistolMaxClip)
+                    if (Clip < MaxClip)
                     {
                         ReadyToFire = false;
                         Debug.Log("Reloading");
@@ -129,7 +143,14 @@ public class PlayerAttack : MonoBehaviour
                     }
                     break;
                 case 2:
-                    break;
+                if (Clip < MaxClip)
+                {
+                    ReadyToFire = false;
+                    Debug.Log("Reloading");
+                    StartCoroutine(WaitAndReload(5));
+                }
+                break;
+                break;
                 default:
                     break;
             }
@@ -140,8 +161,8 @@ public class PlayerAttack : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
 
-        PistolAmmo = PistolAmmo - (PistolMaxClip - PistolClip);
-        PistolClip = PistolMaxClip;
+        Ammo = Ammo - (MaxClip - Clip);
+        Clip = MaxClip;
         ReadyToFire = true;
         Debug.Log("Finished Reloading");
     }
@@ -154,37 +175,56 @@ public class PlayerAttack : MonoBehaviour
             timer = timer - Time.deltaTime;
         }
     }
-    public int GetClipsize()
+    public void UpdateClipsize()
     {
         switch (CurrentWeapon)
         {
             case 1:
-                return PistolClip;
-                break;
+            Ammo = Ammo + Clip;
+            MaxClip = 6;
+            Clip = 6;
+                Ammo = Ammo - MaxClip;
+            break;
             case 2:
-                return 0;
-                break;
+            Ammo = Ammo + Clip;
+            MaxClip = 5;
+            Clip = 5;
+            Ammo = Ammo - MaxClip;
+           
+            break;
             default:
-                return 0;
-                break;
+        
+            break;
 
         }
 
     }
     public int GetAmmoSize()
     {
-        switch (CurrentWeapon)
-        {
-            case 1:
-                return PistolAmmo;
-                break;
-            case 2:
-                return 0;
-                break;
-            default:
-                return 0;
-                break;
-        }
+        return Ammo;
 
     }
+    public void AddDamage(float amount)
+    {
+        rawDamage += amount;
+        Debug.Log("New Damage is " + rawDamage);
+    }
+    public void AddAmmo (int amount)
+    {
+        Ammo = Ammo + amount;
+    }
+    public int GetAmmo()
+    {
+        return Ammo;
+    }
+    //void FireEnergyWeapon()
+    //{
+       
+    //Instantiate(EnergyProjectile,Camera.main.transform.position, Camera.main.transform.rotation);
+    //}
+    public int GetClipsize()
+    {
+        return Clip;
+    }
+        
 }

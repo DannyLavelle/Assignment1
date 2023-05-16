@@ -42,9 +42,21 @@ public class HealthManager : MonoBehaviour
         }
     }
 
-    float Percentagehitpoints()
+    public float Percentagehitpoints()
     {
         return hitPoints / Maxhitpoints;
+    }
+    public void Heal(float Ammount)
+    {
+        if (hitPoints + Ammount  <= Maxhitpoints)
+        {
+            hitPoints = hitPoints + Ammount;
+        }
+        else
+        {
+            hitPoints = Maxhitpoints;
+        }
+        SetHealthSlider();
     }
   
 }

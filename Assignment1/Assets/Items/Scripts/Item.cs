@@ -23,8 +23,7 @@ public class Item : MonoBehaviour
     float weight = 0;
     [SerializeField]
     int quantity = 1;
-    [SerializeField]
-    int maxStackableQuantity = 1; // for bundles of items, such as arrows or coins
+   
 
     [SerializeField]
     bool isStorable = false; // if false, item will be used on pickup
@@ -36,6 +35,7 @@ public class Item : MonoBehaviour
 
     [SerializeField]
     GameObject EnemySpawn;
+    
     private void Start()
     {
         if (isPickupOnCollision)
@@ -46,12 +46,17 @@ public class Item : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        InGameMenuController UI = Menu.GetComponent<InGameMenuController>();
+        
+                    InGameMenuController UI ;
+
+
         if (isPickupOnCollision)
         {
             if (collider.tag == "Player")
-            { 
-                switch(gameObject.tag)
+            {
+                PlayerAttack Attack = collider.GetComponent<PlayerAttack>();
+                HealthManager Health = collider.GetComponent<HealthManager>();
+                switch (gameObject.tag)
                 {
                     case "Trap":
                         Debug.Log("pain");
@@ -60,21 +65,33 @@ public class Item : MonoBehaviour
                         gameObject.SetActive(false);
                         break;
                     case "Enemy Door":
-                        UI.EnemyInfoShow();
+                    UI = Menu.GetComponent<InGameMenuController>();
+                    UI.EnemyInfoShow();
                         EnemySpawn.SetActive(true);
                         gameObject.SetActive(false);
                         
                         break;
                     case "Goal":
-                        UI.WinSequence();
+                    UI = Menu.GetComponent<InGameMenuController>();
+                    UI.WinSequence();
                         break;
+                    case "Health":
+                    Health.Heal(15f);
+                        break;
+                    case "Damage":
+                    Attack.AddDamage(2.5f);
+                    break;
+                    case "Ammo":
+                    Attack.AddAmmo(6);
+                        break;
+
                     default:
                         Interact();
                         break;
 
 
                 }
-               
+               GameObject.Destroy(gameObject);
                 
             }
         }

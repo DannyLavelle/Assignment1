@@ -15,7 +15,7 @@ public class EnemyAttack : MonoBehaviour
     float distanceToTarget;
 
     [SerializeField]
-    GameObject Player;
+    public GameObject Player;
     float rawDamage = 10f;
 
     [SerializeField]
@@ -30,7 +30,7 @@ public class EnemyAttack : MonoBehaviour
 
     private float timer = 0.0f;
     bool IsCollidingPlayer = false;
-    float delayTimer = 0f;
+    float delayTimer = 1f;
     //private HealthManager healthManager; 
     bool Attackready=false;
     void Start()

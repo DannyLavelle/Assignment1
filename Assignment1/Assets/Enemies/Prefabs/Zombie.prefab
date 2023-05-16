@@ -163,6 +163,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 50
+  Ammo: {fileID: 3965862439954816779, guid: 684cbfd0e635de349bab96f725ee6df0, type: 3}
+  Health: {fileID: 3965862439954816779, guid: c891873a6611b0a42bfeca8fcd1d17ed, type: 3}
+  Damage: {fileID: 3965862439954816779, guid: 46598f140caeb6b45b6d388e44183b5b, type: 3}
+  Player: {fileID: 0}
+  HealthChance: 0
+  DamageChance: 0
+  AmmoChance: 0
 --- !u!143 &7401275851545496395
 CharacterController:
   m_ObjectHideFlags: 0
